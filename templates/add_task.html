@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Add task</title>
+</head>
+
+<body class="body">
+<!-- Section: Design Block -->
+<section class="text-center text-lg-start">
+  <style>
+    .cascading-right {
+      margin-right: -50px;
+    }
+
+    @media (max-width: 991.98px) {
+      .cascading-right {
+        margin-right: 0;
+      }
+    }
+        .body{
+    background-color: #293B4A;
+    }
+  </style>
+
+  <!-- Jumbotron -->
+  <div class="container py-4">
+    <div class="row g-0 align-items-center">
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="card cascading-right" style="
+            background: hsla(0, 0%, 100%, 0.55);
+            backdrop-filter: blur(30px);
+            ">
+          <div class="card-body p-5 shadow-5 text-center">
+            <h2 class="fw-bold mb-5">Let's make life harder</h2>
+            <form class="form-group" method="post">
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" name="fin_date" placeholder="fin_date" id="fin_date" required>
+                <label class="form-label">Finish date</label>
+              </div>
+
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" name="task_desc" placeholder="task_desc" id="task_desc" required>
+                <label class="form-label">Task description</label>
+              </div>
+
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" name="cont_id" placeholder="cont_id" id="cont_id" required>
+                <label class="form-label">Contract id</label>
+              </div>
+
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" name="executor" placeholder="executor" id="executor" required>
+                <label class="form-label">Executor id</label>
+              </div>
+
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" name="client" placeholder="client" id="client" required>
+                <label class="form-label">Client id</label>
+              </div>
+
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" name="priority_num" placeholder="priority_num" id="priority_num" required>
+                <label class="form-label">Priority</label>
+              </div>
+
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">
+                Submit
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <img src="https://ibb.org.ru/images/2022/12/24/photo_5273775620066755650_x.jpg" class="w-100 rounded-4 shadow-4"
+          alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+</section>
+<!-- Section: Design Block -->
+</body>
+</html>
